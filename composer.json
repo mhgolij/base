@@ -1,0 +1,21 @@
+{
+    "name": "heerab/base",
+    "description": "base package for heerab CMS",
+    "autoload": {
+        "psr-4": {
+            "Heerab\\Base\\": "src/"
+        }
+    },
+    "type": "project",
+    "require": {
+        "laravel/jetstream": "*",
+        "livewire/livewire": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Heerab\\Base\\BaseServiceProvider"
+            ]
+        }
+    }
+}
